@@ -1,0 +1,29 @@
+{
+    "plugins": [],
+    "extends": [
+      "eslint:recommended",
+    ],
+    "rules": {
+      "no-empty-function": "error",
+      "camelcase": "error",
+      "curly": "error",
+      "semi": "error",
+      "no-useless-constructor": "error",
+      "no-multi-spaces": "error",
+      "eqeqeq": "error"
+    },
+    "parser": "@babel/eslint-parser",
+    "parserOptions": {
+      "ecmaVersion": 9,
+      "sourceType": "module"
+    },
+    "env": {
+      "browser": true,
+      "node": true,
+      "es6": true,
+      "jest": true
+    },
+    "globals": {
+      "$": true
+    },
+  }
